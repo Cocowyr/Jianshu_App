@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NotificationViewController.h
 //  模仿简书自定义Tabbar（纯代码）
 //
 //  Created by 余钦 on 16/5/30.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface NotificationViewController : UIViewController
 
 @end
-

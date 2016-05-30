@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		0E37F4031CFC129700586ECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E37F4021CFC129700586ECA /* main.m */; };
 		0E37F4061CFC129700586ECA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E37F4051CFC129700586ECA /* AppDelegate.m */; };
-		0E37F4091CFC129700586ECA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E37F4081CFC129700586ECA /* ViewController.m */; };
 		0E37F40C1CFC129700586ECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E37F40A1CFC129700586ECA /* Main.storyboard */; };
 		0E37F40E1CFC129700586ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E37F40D1CFC129700586ECA /* Assets.xcassets */; };
 		0E37F4111CFC129700586ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E37F40F1CFC129700586ECA /* LaunchScreen.storyboard */; };
 		0E37F41C1CFC129700586ECA /* _______Tabbar_____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E37F41B1CFC129700586ECA /* _______Tabbar_____Tests.m */; };
 		0E37F4271CFC129700586ECA /* _______Tabbar_____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E37F4261CFC129700586ECA /* _______Tabbar_____UITests.m */; };
+		0E37F44F1CFC205500586ECA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E37F44E1CFC205500586ECA /* HomeViewController.m */; };
+		0E37F4521CFC212400586ECA /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E37F4511CFC212400586ECA /* MeViewController.m */; };
+		0E37F4551CFC217A00586ECA /* NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E37F4541CFC217A00586ECA /* NotificationViewController.m */; };
+		0E37F4581CFC220500586ECA /* SubscriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E37F4571CFC220500586ECA /* SubscriptionViewController.m */; };
+		0E37F45B1CFC228800586ECA /* WriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E37F45A1CFC228800586ECA /* WriteViewController.m */; };
+		0E607D091CFC28F800C8EA2A /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E607D081CFC28F800C8EA2A /* MainTabBarController.m */; };
+		0E607D0D1CFC2D5700C8EA2A /* MainTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E607D0C1CFC2D5700C8EA2A /* MainTabBarButton.m */; };
+		0E607D101CFC326E00C8EA2A /* MainTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E607D0F1CFC326E00C8EA2A /* MainTabBar.m */; };
+		0E607D131CFC449E00C8EA2A /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E607D121CFC449E00C8EA2A /* MainNavigationController.m */; };
+		0E607D161CFC48C300C8EA2A /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E607D151CFC48C300C8EA2A /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +48,6 @@
 		0E37F4021CFC129700586ECA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0E37F4041CFC129700586ECA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0E37F4051CFC129700586ECA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0E37F4071CFC129700586ECA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0E37F4081CFC129700586ECA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0E37F40B1CFC129700586ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E37F40D1CFC129700586ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E37F4101CFC129700586ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,26 @@
 		0E37F4221CFC129700586ECA /* 模仿简书自定义Tabbar（纯代码）UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "模仿简书自定义Tabbar（纯代码）UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E37F4261CFC129700586ECA /* _______Tabbar_____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tabbar_____UITests.m"; sourceTree = "<group>"; };
 		0E37F4281CFC129700586ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E37F44D1CFC205500586ECA /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0E37F44E1CFC205500586ECA /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0E37F4501CFC212400586ECA /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		0E37F4511CFC212400586ECA /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		0E37F4531CFC217A00586ECA /* NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationViewController.h; sourceTree = "<group>"; };
+		0E37F4541CFC217A00586ECA /* NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationViewController.m; sourceTree = "<group>"; };
+		0E37F4561CFC220500586ECA /* SubscriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubscriptionViewController.h; sourceTree = "<group>"; };
+		0E37F4571CFC220500586ECA /* SubscriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubscriptionViewController.m; sourceTree = "<group>"; };
+		0E37F4591CFC228800586ECA /* WriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteViewController.h; sourceTree = "<group>"; };
+		0E37F45A1CFC228800586ECA /* WriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteViewController.m; sourceTree = "<group>"; };
+		0E607D071CFC28F800C8EA2A /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		0E607D081CFC28F800C8EA2A /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		0E607D0B1CFC2D5700C8EA2A /* MainTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarButton.h; sourceTree = "<group>"; };
+		0E607D0C1CFC2D5700C8EA2A /* MainTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarButton.m; sourceTree = "<group>"; };
+		0E607D0E1CFC326E00C8EA2A /* MainTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBar.h; sourceTree = "<group>"; };
+		0E607D0F1CFC326E00C8EA2A /* MainTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBar.m; sourceTree = "<group>"; };
+		0E607D111CFC449E00C8EA2A /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		0E607D121CFC449E00C8EA2A /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		0E607D141CFC48C300C8EA2A /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		0E607D151CFC48C300C8EA2A /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +128,9 @@
 		0E37F4001CFC129700586ECA /* 模仿简书自定义Tabbar（纯代码） */ = {
 			isa = PBXGroup;
 			children = (
+				0E37F4351CFC1F6500586ECA /* Classes */,
 				0E37F4041CFC129700586ECA /* AppDelegate.h */,
 				0E37F4051CFC129700586ECA /* AppDelegate.m */,
-				0E37F4071CFC129700586ECA /* ViewController.h */,
-				0E37F4081CFC129700586ECA /* ViewController.m */,
 				0E37F40A1CFC129700586ECA /* Main.storyboard */,
 				0E37F40D1CFC129700586ECA /* Assets.xcassets */,
 				0E37F40F1CFC129700586ECA /* LaunchScreen.storyboard */,
@@ -138,6 +164,217 @@
 				0E37F4281CFC129700586ECA /* Info.plist */,
 			);
 			path = "模仿简书自定义Tabbar（纯代码）UITests";
+			sourceTree = "<group>";
+		};
+		0E37F4351CFC1F6500586ECA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0E37F44A1CFC201D00586ECA /* MainTabbar */,
+				0E37F4361CFC1F6500586ECA /* Home */,
+				0E37F43A1CFC1F6500586ECA /* Me */,
+				0E37F43E1CFC1F6500586ECA /* Notification */,
+				0E37F4421CFC1F6500586ECA /* Subscription */,
+				0E37F4461CFC1F6500586ECA /* Write */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0E37F4361CFC1F6500586ECA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0E37F4371CFC1F6500586ECA /* Controller */,
+				0E37F4381CFC1F6500586ECA /* Model */,
+				0E37F4391CFC1F6500586ECA /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0E37F4371CFC1F6500586ECA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E37F44D1CFC205500586ECA /* HomeViewController.h */,
+				0E37F44E1CFC205500586ECA /* HomeViewController.m */,
+				0E607D141CFC48C300C8EA2A /* TestViewController.h */,
+				0E607D151CFC48C300C8EA2A /* TestViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E37F4381CFC1F6500586ECA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E37F4391CFC1F6500586ECA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E37F43A1CFC1F6500586ECA /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				0E37F43B1CFC1F6500586ECA /* Controller */,
+				0E37F43C1CFC1F6500586ECA /* Model */,
+				0E37F43D1CFC1F6500586ECA /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		0E37F43B1CFC1F6500586ECA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E37F4501CFC212400586ECA /* MeViewController.h */,
+				0E37F4511CFC212400586ECA /* MeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E37F43C1CFC1F6500586ECA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E37F43D1CFC1F6500586ECA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E37F43E1CFC1F6500586ECA /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				0E37F43F1CFC1F6500586ECA /* Controller */,
+				0E37F4401CFC1F6500586ECA /* Model */,
+				0E37F4411CFC1F6500586ECA /* View */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		0E37F43F1CFC1F6500586ECA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E37F4531CFC217A00586ECA /* NotificationViewController.h */,
+				0E37F4541CFC217A00586ECA /* NotificationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E37F4401CFC1F6500586ECA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E37F4411CFC1F6500586ECA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E37F4421CFC1F6500586ECA /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				0E37F4431CFC1F6500586ECA /* Controller */,
+				0E37F4441CFC1F6500586ECA /* Model */,
+				0E37F4451CFC1F6500586ECA /* View */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		0E37F4431CFC1F6500586ECA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E37F4561CFC220500586ECA /* SubscriptionViewController.h */,
+				0E37F4571CFC220500586ECA /* SubscriptionViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E37F4441CFC1F6500586ECA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E37F4451CFC1F6500586ECA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E37F4461CFC1F6500586ECA /* Write */ = {
+			isa = PBXGroup;
+			children = (
+				0E37F4471CFC1F6500586ECA /* Controller */,
+				0E37F4481CFC1F6500586ECA /* Model */,
+				0E37F4491CFC1F6500586ECA /* View */,
+			);
+			path = Write;
+			sourceTree = "<group>";
+		};
+		0E37F4471CFC1F6500586ECA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E37F4591CFC228800586ECA /* WriteViewController.h */,
+				0E37F45A1CFC228800586ECA /* WriteViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E37F4481CFC1F6500586ECA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0E37F4491CFC1F6500586ECA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0E37F44A1CFC201D00586ECA /* MainTabbar */ = {
+			isa = PBXGroup;
+			children = (
+				0E37F44B1CFC201D00586ECA /* Controller */,
+				0E37F44C1CFC201D00586ECA /* View */,
+			);
+			path = MainTabbar;
+			sourceTree = "<group>";
+		};
+		0E37F44B1CFC201D00586ECA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0E607D071CFC28F800C8EA2A /* MainTabBarController.h */,
+				0E607D081CFC28F800C8EA2A /* MainTabBarController.m */,
+				0E607D111CFC449E00C8EA2A /* MainNavigationController.h */,
+				0E607D121CFC449E00C8EA2A /* MainNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0E37F44C1CFC201D00586ECA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0E607D0B1CFC2D5700C8EA2A /* MainTabBarButton.h */,
+				0E607D0C1CFC2D5700C8EA2A /* MainTabBarButton.m */,
+				0E607D0E1CFC326E00C8EA2A /* MainTabBar.h */,
+				0E607D0F1CFC326E00C8EA2A /* MainTabBar.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +507,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E37F4091CFC129700586ECA /* ViewController.m in Sources */,
 				0E37F4061CFC129700586ECA /* AppDelegate.m in Sources */,
 				0E37F4031CFC129700586ECA /* main.m in Sources */,
+				0E37F4521CFC212400586ECA /* MeViewController.m in Sources */,
+				0E37F4581CFC220500586ECA /* SubscriptionViewController.m in Sources */,
+				0E37F4551CFC217A00586ECA /* NotificationViewController.m in Sources */,
+				0E37F45B1CFC228800586ECA /* WriteViewController.m in Sources */,
+				0E607D161CFC48C300C8EA2A /* TestViewController.m in Sources */,
+				0E607D091CFC28F800C8EA2A /* MainTabBarController.m in Sources */,
+				0E37F44F1CFC205500586ECA /* HomeViewController.m in Sources */,
+				0E607D131CFC449E00C8EA2A /* MainNavigationController.m in Sources */,
+				0E607D101CFC326E00C8EA2A /* MainTabBar.m in Sources */,
+				0E607D0D1CFC2D5700C8EA2A /* MainTabBarButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +742,7 @@
 				0E37F42D1CFC129700586ECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E37F42E1CFC129700586ECA /* Build configuration list for PBXNativeTarget "模仿简书自定义Tabbar（纯代码）Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +751,7 @@
 				0E37F4301CFC129700586ECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E37F4311CFC129700586ECA /* Build configuration list for PBXNativeTarget "模仿简书自定义Tabbar（纯代码）UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +760,7 @@
 				0E37F4331CFC129700586ECA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
