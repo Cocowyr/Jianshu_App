@@ -1,0 +1,1 @@
+![image](https://github.com/Naruto-yq/Jianshu_App/blob/master/%E6%A8%A1%E4%BB%BF%E7%AE%80%E4%B9%A6%E8%87%AA%E5%AE%9A%E4%B9%89TabBar%EF%BC%88%E7%BA%AF%E4%BB%A3%E7%A0%81%EF%BC%89.gif)
